@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function StatisticLine({text,number}) {
   return (
-    <div>{text} : {number} </div>
+    <td><td>{text}</td><td>{number}</td></td>
+    
   )
 }
