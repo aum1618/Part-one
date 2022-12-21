@@ -1,11 +1,13 @@
 import React from 'react'
+import Part from './Part'
 
 export default function Content(props) {
   return (
     <>
-    <div><p>{props.part1} {props.exercises1} </p></div>
-    <div><p>{props.part2} {props.exercises2} </p></div>
-    <div><p>{props.part3} {props.exercises3} </p></div>
+    <Part  name={props.part1} exercise={props.exercises1} />
+    <Part  name={props.part2} exercise={props.exercises2} />
+    <Part  name={props.part3} exercise={props.exercises3} />
+   
   
     </>
   )
