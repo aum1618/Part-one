@@ -13,7 +13,7 @@ const App = () => {
 
   const [selected, setSelected] = useState(Math.floor(Math.random() * 6));
   const [vote, setVote] = useState(0);
-  var points = [0, 0, 0, 0, 0, 0, 0];
+  const points = [0, 0, 0, 0, 0, 0, 0];
   var copy =[...points]
 
   const selection=()=>{
